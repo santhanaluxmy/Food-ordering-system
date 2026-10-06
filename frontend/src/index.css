@@ -1,0 +1,350 @@
+/* =========================================
+   GLOBAL ADMIN READABILITY FIX
+   Dashboard / Categories / Foods / Customers
+========================================= */
+
+/* ---------- SIDEBAR ---------- */
+
+.admin-navigation a,
+.categories-navigation a,
+.foods-navigation a,
+.customers-navigation a {
+  font-size: 14px !important;
+  color: #d8ccc3 !important;
+}
+
+.admin-navigation a:hover,
+.categories-navigation a:hover,
+.foods-navigation a:hover,
+.customers-navigation a:hover {
+  color: #ffffff !important;
+}
+
+/* Keep active menu white */
+
+.admin-navigation .admin-active,
+.categories-navigation .categories-nav-active,
+.foods-navigation .foods-nav-active,
+.customers-navigation .customers-nav-active {
+  color: #ffffff !important;
+}
+
+.admin-label,
+.categories-menu-label,
+.foods-menu-label,
+.customers-menu-label {
+  font-size: 10px !important;
+  color: #b5a69b !important;
+}
+
+.admin-sidebar-bottom a,
+.categories-sidebar-bottom a,
+.foods-sidebar-bottom a,
+.customers-sidebar-bottom a {
+  font-size: 12px !important;
+  color: #c5b8ae !important;
+}
+
+
+/* ---------- MAIN PAGE TITLE ---------- */
+
+.admin-header p,
+.categories-header p,
+.foods-header p,
+.customers-header p {
+  font-size: 10px !important;
+}
+
+.admin-header h1,
+.categories-header h1,
+.foods-header h1,
+.customers-header h1 {
+  font-size: 32px !important;
+}
+
+
+/* ---------- COUNTER BOX ---------- */
+
+.categories-header-count span,
+.foods-count span,
+.customers-count span {
+  font-size: 11px !important;
+  color: #62564e !important;
+}
+
+.categories-header-count strong,
+.foods-count strong,
+.customers-count strong {
+  font-size: 21px !important;
+}
+
+
+/* ---------- CARD SMALL RED LABEL ---------- */
+
+.panel-heading p,
+.category-card-heading p,
+.category-list-heading p,
+.food-form-heading p,
+.food-list-heading p,
+.customer-edit-heading p,
+.customers-list-heading p {
+  font-size: 10px !important;
+}
+
+
+/* ---------- CARD HEADINGS ---------- */
+
+.panel-heading h2,
+.category-card-heading h2,
+.category-list-heading h2,
+.food-form-heading h2,
+.food-list-heading h2,
+.customer-edit-heading h2,
+.customers-list-heading h2 {
+  font-size: 20px !important;
+}
+
+
+/* ---------- TABLE HEADINGS ---------- */
+
+.category-table th,
+.food-table th,
+.customers-table th {
+  font-size: 11px !important;
+  color: #5c5048 !important;
+
+  font-weight: 800 !important;
+
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+
+
+/* ---------- TABLE CONTENT ---------- */
+
+.category-table td,
+.food-table td,
+.customers-table td {
+  font-size: 12px !important;
+  color: #40342c !important;
+
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+
+/* ---------- CATEGORY PAGE ---------- */
+
+.category-id {
+  font-size: 11px !important;
+  color: #6d6158 !important;
+}
+
+.category-name strong {
+  font-size: 13px !important;
+  color: #2d1d14 !important;
+}
+
+.category-description {
+  font-size: 12px !important;
+  color: #5f544c !important;
+}
+
+.category-list-heading > span {
+  font-size: 11px !important;
+}
+
+
+/* ---------- FOOD PAGE ---------- */
+
+.admin-food-info strong {
+  font-size: 13px !important;
+  color: #2d1d14 !important;
+}
+
+.admin-food-info span {
+  font-size: 11px !important;
+  color: #62574f !important;
+}
+
+.food-category-badge {
+  font-size: 11px !important;
+}
+
+.food-price {
+  font-size: 12px !important;
+}
+
+.food-status {
+  font-size: 10px !important;
+
+  padding: 6px 10px !important;
+}
+
+.food-list-heading > span {
+  font-size: 11px !important;
+}
+
+
+/* ---------- CUSTOMER PAGE ---------- */
+
+.customer-profile strong {
+  font-size: 13px !important;
+  color: #2d1d14 !important;
+}
+
+.customer-profile span {
+  font-size: 10px !important;
+  color: #6d6158 !important;
+}
+
+.customer-email,
+.customer-phone,
+.customer-address {
+  font-size: 12px !important;
+  color: #51463e !important;
+}
+
+.customers-list-heading > span {
+  font-size: 11px !important;
+}
+
+
+/* ---------- FORMS ---------- */
+
+.category-field label,
+.food-field label,
+.customer-field label {
+  font-size: 12px !important;
+  color: #3b2d25 !important;
+}
+
+.category-field input,
+.category-field textarea,
+.food-field input,
+.food-field select,
+.food-field textarea,
+.customer-field input {
+  font-size: 13px !important;
+
+  padding: 12px 13px !important;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.category-actions button,
+.food-actions button,
+.customer-actions button {
+  font-size: 11px !important;
+
+  padding: 7px 11px !important;
+}
+
+.category-save-button,
+.food-save-button,
+.customer-update-button {
+  font-size: 12px !important;
+
+  padding: 12px 15px !important;
+}
+
+.category-cancel-button,
+.food-cancel-button,
+.customer-cancel-button {
+  font-size: 11px !important;
+}
+
+
+/* ---------- DASHBOARD STAT CARDS ---------- */
+
+.stat-card span {
+  font-size: 11px !important;
+  color: #62574f !important;
+}
+
+.stat-card strong {
+  font-size: 27px !important;
+}
+
+.stat-card small {
+  font-size: 10px !important;
+  color: #786c63 !important;
+}
+
+
+/* ---------- DASHBOARD WELCOME ---------- */
+
+.admin-welcome p {
+  font-size: 10px !important;
+}
+
+.admin-welcome h2 {
+  font-size: 25px !important;
+}
+
+.admin-welcome span {
+  font-size: 12px !important;
+  color: #c0b2a8 !important;
+}
+
+
+/* ---------- REVENUE ---------- */
+
+.revenue-card span {
+  font-size: 10px !important;
+}
+
+.revenue-card h2 {
+  font-size: 25px !important;
+}
+
+.revenue-card p {
+  font-size: 11px !important;
+}
+
+
+/* ---------- POPULAR FOOD ---------- */
+
+.popular-info strong {
+  font-size: 12px !important;
+}
+
+.popular-info span {
+  font-size: 11px !important;
+  color: #62574f !important;
+}
+
+.popular-orders strong {
+  font-size: 15px !important;
+}
+
+.popular-orders span {
+  font-size: 10px !important;
+}
+
+
+/* ---------- QUICK ACTIONS ---------- */
+
+.quick-actions span {
+  font-size: 12px !important;
+}
+
+
+/* ---------- EMPTY / LOADING ---------- */
+
+.category-state,
+.food-state,
+.customers-state,
+.admin-state {
+  font-size: 13px !important;
+}
+
+
+/* ---------- ALERT MESSAGES ---------- */
+
+.categories-alert,
+.foods-alert,
+.customers-alert {
+  font-size: 12px !important;
+}

@@ -1,0 +1,342 @@
+.confirmation-page {
+  min-height: 100vh;
+  background: #fffaf1;
+  color: #3d261d;
+  padding: 60px 20px 90px;
+}
+
+.confirmation-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* SUCCESS */
+
+.success-section {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.success-icon {
+  width: 70px;
+  height: 70px;
+
+  margin: auto auto 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #e7f5e8;
+  color: #2d7a38;
+
+  border-radius: 50%;
+
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.success-label {
+  color: #2d7a38;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.success-section h1 {
+  margin: 10px 0;
+  font-size: 38px;
+}
+
+.success-section p {
+  max-width: 540px;
+  margin: auto;
+
+  color: #806c62;
+  line-height: 1.7;
+}
+
+/* RECEIPT */
+
+.receipt-card {
+  background: white;
+
+  border: 1px solid #eaded5;
+  border-radius: 18px;
+
+  padding: 35px;
+
+  box-shadow: 0 10px 35px rgba(61, 38, 29, 0.08);
+}
+
+.receipt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.receipt-header span {
+  color: #b3261e;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.receipt-header h2 {
+  margin: 5px 0 0;
+
+  color: #b3261e;
+  font-size: 29px;
+}
+
+.order-number {
+  text-align: right;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.order-number small {
+  color: #8d786d;
+  margin-bottom: 3px;
+}
+
+.order-number strong {
+  font-size: 19px;
+}
+
+.receipt-divider {
+  height: 1px;
+
+  background: #eee3db;
+
+  margin: 27px 0;
+}
+
+/* STATUS */
+
+.status-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 17px;
+
+  background: #fff7e5;
+  border: 1px solid #f3dfad;
+
+  border-radius: 11px;
+}
+
+.status-icon {
+  font-size: 27px;
+}
+
+.status-box > div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-box small {
+  color: #8d786d;
+  margin-bottom: 3px;
+}
+
+.status-box strong {
+  color: #b3261e;
+  text-transform: capitalize;
+}
+
+/* DELIVERY */
+
+.delivery-details {
+  margin-top: 28px;
+}
+
+.delivery-details h3 {
+  margin-bottom: 17px;
+  font-size: 17px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+
+  margin: 12px 0;
+
+  font-size: 14px;
+}
+
+.detail-row span {
+  color: #8a766c;
+}
+
+.detail-row strong {
+  text-align: right;
+}
+
+.address-row strong {
+  max-width: 350px;
+}
+
+/* PRICE */
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 13px 0;
+
+  color: #715d53;
+}
+
+.grand-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+  padding-top: 20px;
+
+  border-top: 1px dashed #d9cbc2;
+
+  font-size: 20px;
+}
+
+.grand-total strong {
+  color: #b3261e;
+  font-size: 26px;
+}
+
+/* MESSAGE */
+
+.receipt-message {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 30px;
+
+  padding: 16px;
+
+  background: #f7f1eb;
+  border-radius: 10px;
+}
+
+.receipt-message span {
+  font-size: 25px;
+}
+
+.receipt-message p {
+  margin: 0;
+
+  color: #735f55;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* BUTTONS */
+
+.confirmation-actions {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+
+  margin-top: 27px;
+}
+
+.confirmation-actions a {
+  padding: 13px 22px;
+
+  border-radius: 9px;
+
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.orders-button {
+  background: #b3261e;
+  color: white;
+}
+
+.orders-button:hover {
+  background: #8f1d17;
+}
+
+.menu-button {
+  background: white;
+  color: #b3261e;
+
+  border: 1px solid #b3261e;
+}
+
+/* NO ORDER */
+
+.confirmation-missing {
+  max-width: 550px;
+  margin: 60px auto;
+
+  padding: 60px 30px;
+
+  background: white;
+  border-radius: 18px;
+
+  text-align: center;
+}
+
+.missing-icon {
+  font-size: 55px;
+}
+
+.confirmation-missing p {
+  color: #806c62;
+}
+
+.confirmation-missing a {
+  display: inline-block;
+
+  margin-top: 15px;
+  padding: 13px 22px;
+
+  background: #b3261e;
+  color: white;
+
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .confirmation-page {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .success-section h1 {
+    font-size: 31px;
+  }
+
+  .receipt-card {
+    padding: 24px 20px;
+  }
+
+  .confirmation-actions {
+    flex-direction: column;
+  }
+
+  .confirmation-actions a {
+    text-align: center;
+  }
+
+  .detail-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .detail-row strong {
+    text-align: left;
+  }
+}

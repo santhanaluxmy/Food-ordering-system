@@ -1,0 +1,141 @@
+.register-page {
+  min-height: 100vh;
+  background: #fff8e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 480px;
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.register-card h1 {
+  text-align: center;
+  color: #b71c1c;
+  margin-bottom: 8px;
+}
+
+.register-card h2 {
+  text-align: center;
+  color: #4e342e;
+  margin-bottom: 8px;
+}
+
+.register-subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.register-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.register-card label {
+  font-weight: 600;
+  color: #4e342e;
+}
+
+.register-card input,
+.register-card textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.register-card textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.register-card button {
+  margin-top: 12px;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #b71c1c;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.register-card button:hover {
+  background: #8e1515;
+}
+
+.success-message {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.error-message {
+  background: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: #b71c1c;
+  font-weight: 600;
+}
+
+.password-field {
+  position: relative;
+  width: 100%;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+.password-field .password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 38px;
+  height: 38px;
+
+  padding: 0;
+  margin: 0;
+
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+}
+
+.password-field .password-toggle:hover {
+  background: transparent;
+}
